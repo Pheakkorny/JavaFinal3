@@ -1,0 +1,4 @@
+Add a new customer:  curl -X POST -H "Content-Type: application/json" -d '{"lastName":"Doe","firstName":"John","phone":"1234567890"}' http://localhost:8080/customers
+Find a customer by ID:  curl -X GET http://localhost:8080/customers/1
+Get all customers:  curl -X GET http://localhost:8080/customers
+Update a customer:  curl -X PUT -H "Content-Type: application/json" -d '{"lastName":"Smith","firstName":"Jane","phone":"0987654321"}' http://localhost:8080/customers/1
